@@ -1,0 +1,23 @@
+{
+  "name": "pyEgresados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franmerlini/Diplo-UTN-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franmerlini/Diplo-UTN-/issues"
+  },
+  "homepage": "https://github.com/franmerlini/Diplo-UTN-#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
