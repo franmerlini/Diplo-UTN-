@@ -33,6 +33,10 @@ body {
   background-color: #ebebeb;
 }
 
+.border-top {
+  border-top: 1px solid rgb(168, 168, 168) !important;
+}
+
 .font-white {
   color: white;
 }
@@ -121,6 +125,7 @@ svg {
   padding: 20px 10px;
   border-radius: 7px;
 }
+
 .steps-container {
   display: flex;
   flex-direction: column;
@@ -141,10 +146,6 @@ svg {
   display: inline-flex;
   align-items: center;
   font-weight: bold;
-}
-
-.line-box {
-  width: 60px;
 }
 
 /*Footer*/
@@ -180,6 +181,16 @@ svg {
   padding: 0;
   width: 30px;
   height: 30px;
+}
+
+.icon-container {
+  justify-content: center;
+}
+
+.icon-container > div {
+  display: inline-flex;
+  max-width: 300px;
+  margin-bottom: 15px;
 }
 
 .icon-list > .btn {
